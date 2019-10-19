@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../image/construction-61137_1280.jpg");
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 30%;
+    margin: 40px auto;
+    text-align: left;
+    color: #566573;
+    text-decoration:none;
+}
+.Atras{
+    text-align: left;
+    padding: 20px;
+    text-decoration:none;
+    color: #2B2E33;
+      
+}
+
+
+.formulario .contenedor-inputs{
+    padding: 20px;
+    background: #fff;
+    border-radius: 6px 6px 0 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"]{
+display: block;
+width: 100%;
+margin-bottom:20px;
+padding: 15px 10px; 
+border: none;
+border-bottom: 2px solid #ccc;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario input[type="pas"]:focus{
+    border-bottom: 2px solid #246eb9;
+}
+
+.formulario input[type="radio"]{
+    display: none;
+}
+
+.formulario .sexo{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.formulario .sexo .hombre {
+    border-radius: 3px 0 0 3px;
+}
+.formulario .sexo .mujer {
+    border-radius: 0 3px 3px 0;
+}
+
+.formulario .label-radio{
+    background: rgba(249,160,63,.4);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 49.5%;
+}
+
+.formulario input[type="radio"]:checked + .label-radio{
+    background: #f9a03f;
+}
+
+.formulario .terminos label{
+    margin-left: 10px;
+}
+
+.formulario .error{
+display: none;
+margin-top: 20px;
+border-radius: 3px;
+background: #e84d43;
+color: #f2f2f2;
+padding: 15px 10px;
+padding-left: 40px;
+}
+
+.formulario .btn{
+    width: 100%;
+    text-align: center;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 0 0 6px 6px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; 
+}
+
+.formulario .btn:hover{
+background:#566573;
+}
+
+.contenedor .titulo{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin: 20px auto;
+padding: 20px;
+font-size: 30px;
+}
+

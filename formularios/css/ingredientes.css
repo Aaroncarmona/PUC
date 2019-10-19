@@ -1,0 +1,63 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+  }
+
+  body{
+      background: url("../img/fondo9.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: "Poppins", sans-serif;
+
+  }
+
+  .contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+/* ---- Header ---*/
+header .menu{
+    margin: 20px 0;
+    text-align: right;
+  }
+  
+  header .menu a{
+  margin: 0 20px;
+  color: #fff;
+  padding-bottom: 9px;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-size: 1em;
+  }
+  
+  header .menu a:hover{
+    border-bottom: 2px solid #fff;
+  }
+
+  .titulo{
+      text-align: center;
+      margin: 10px auto;
+      font-family: "Poppins", sans-serif;
+      padding: 10px;
+      font-size: 26px;
+      color: #f2f2f2;
+  }
+
+  .lista{
+    background: rgba(  242, 244, 244, .20);
+	margin: 50px auto;
+	width: 70%;
+	padding: 20px;
+	border-radius: 5px solid #000;
+  }
+
+  .lista ul li{
+      list-style-image: url("../img/pizza-slice.png");
+      color:#f2f2f2;
+  }
+
